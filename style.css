@@ -1,0 +1,154 @@
+/* PRO-TECH Industrial Solutions */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#F4F8FC;
+    color:#243447;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Header */
+
+header{
+    background:#0A2E5C;
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+}
+
+header h1{
+    font-size:38px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:18px;
+    color:#C8E6FF;
+}
+
+/* Hero */
+
+.hero{
+    background:linear-gradient(135deg,#0057B8,#0077CC);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.button{
+    display:inline-block;
+    background:#00AEEF;
+    color:white;
+    text-decoration:none;
+    padding:15px 28px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#0095D6;
+}
+
+/* Sections */
+
+section{
+    padding:60px 0;
+}
+
+h2{
+    color:#0A2E5C;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+/* Cards */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border-top:5px solid #0057B8;
+}
+
+.card h3{
+    color:#0057B8;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+
+/* Contact */
+
+#contact{
+    background:#EAF3FF;
+    border-radius:12px;
+    padding:40px;
+}
+
+/* Footer */
+
+footer{
+    background:#081C36;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:28px;
+    }
+
+    .hero h2{
+        font-size:30px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    h2{
+        font-size:26px;
+    }
+
+}
